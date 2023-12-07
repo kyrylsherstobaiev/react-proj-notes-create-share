@@ -1,0 +1,41 @@
+.hide {
+    display: none;
+}
+
+.note_tab, .create_tab, .about_article {
+    margin: 1rem 4rem 1rem 4rem;
+}
+
+.got_link {
+    margin-bottom: 0.5rem;
+}
+
+.create_link {
+    margin-bottom: 1rem;
+}
+
+.form_style button, .note_btn, .line_button {
+    margin-top: 0.5rem;
+}
+
+.nav-container {
+    padding-left: 3rem;
+}
+
+
+.main_tab {
+    display: inline-grid;
+    grid-template-areas:  "A" "B";
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.main_tab--text {
+    grid-area: A;
+
+}
+
+.main_tab--links {
+    grid-area: B;
+    display: inline-flex;
+    gap: 1rem;
+}
